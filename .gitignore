@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Secrets and local environment
+.env
+.streamlit/secrets.toml
+
+# Downloaded market data, databases, and trained models
+data/cache/
+data/*.db
+models/saved/
+
+# Editor and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
